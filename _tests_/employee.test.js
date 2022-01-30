@@ -13,8 +13,8 @@ test("can get name via constructor", () => {
 
 test("can get id via constructor", () => {
     const id = "5";
-    const e = new Employee(name);
-    expect(e.name).toBe(name);
+    const e = new Employee("Keith",id);
+    expect(e.id).toBe(id);
 })
 
 test("testing getName(), getID(), and getEmail() method", () => {
